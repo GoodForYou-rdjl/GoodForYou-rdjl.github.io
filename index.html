@@ -1,22 +1,91 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
+
   <meta charset="utf-8">
 
 	<title>GoodForYou: Coming Soon</title>
 	<meta name="description" content="GoodForYou: Coming Soon">
 	<meta name="author" content="GOODFORYOU">
 
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+
 	<style>
-	body {background-color:blue;}
-	h1 {color:white;}
-	p {color:white;}
+
+    html, body {
+      background-color:#82cfff;
+      font-family: 'Noto Sans JP', sans-serif;
+      text-shadow: 1px 1px 4px #000000;
+      height: 100%;
+    }
+
+    .container{
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      position: relative;
+    }
+
+    .splashText {
+      position: absolute;
+      height: 60%;
+      width: 70%;
+      line-height: 500px;
+      border: 5px solid black;
+      background-color: white;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      font-size: 55px;
+      margin: 5px;
+    }
+
+    .gifContainer {
+      position: absolute;
+      height: 35%;
+      width: 35%;
+      left: 43%;
+      top: 45%;
+      margin:0;
+      align-items: center;
+      vertical-align: middle;
+    }
+
+    .claim {
+      position: absolute;
+      font-size: 22px;
+      top: 93%;
+    }
+
 	</style>
+
 </head>
 
 <body>
-  <h1>Coming Soon!</h1>
-  <p>This site is currently under development to ensure you have the best experience possible! Check back in again soon!</p>
+
+  <div class="container">
+
+    <div class="splashText">
+      <span>We are currently working on our site to ensure you have the best experience possible.<br><br><br>Hang tight! Class will be in session soon.</span>
+    </div>
+
+    <img class="gifContainer" src="wip.Gif" alt="Tool Gif" style="width:200px;height:200px;">
+
+    <p class="claim">
+      GoodForYou 2020
+    </p>
+
+  </div>
+
 </body>
+
 </html>
